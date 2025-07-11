@@ -27,7 +27,7 @@ const FooterComp = () => {
          <div>
             <h4 style={{marginTop:'1rem'}}>Showcase</h4>
             <div style={{display:'flex',flexDirection:'column'}}>
-              <a style={{color:'#ff3ff2',fontSize:'0.8rem',margin:'0.3rem 0'}} href='https://www.yumyum.se/' target='_blank'>Restaurants</a>
+              <a style={{color:'#ff3ff2',fontSize:'0.8rem',margin:'0.3rem 0'}} href='/showcase/restaurants'>Restaurants</a>
                             <a style={{color:'#ff3ff2',fontSize:'0.8rem',margin:'0.3rem 0'}} href='https://www.hotmat.se/' target='_blank'>Food Delivery</a>
   <a style={{color:'#ff3ff2',fontSize:'0.8rem',margin:'0.3rem 0'}} href='https://www.zanzihome.com/'>Real Estate</a>
                         <a style={{color:'#ff3ff2',fontSize:'0.8rem',margin:'0.3rem 0'}} href='https://www.huba-tours.com/' target='_blank'>Tours & Safari</a>
