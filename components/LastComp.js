@@ -16,7 +16,7 @@ const LastComp = () => {
             <h2 style={{ fontFamily: 'Georgia, sans-serif', fontSize: '1.75rem', lineHeight: '2.5rem', maxWidth: '300px',color:'whitesmoke' }}>fast, safe and easy</h2>
             <p style={{ fontFamily: 'Montserrat, sans-serif', color: 'gray', marginTop: '0.75rem', marginBottom: '1rem', lineHeight: '24px',maxWidth:'400px' }}>{'With our help, we will take your business to a whole new level.'}</p>
             <div style={{ padding: '0.4rem',display:'flex',flexDirection:'column' }}>
-                <FormControlLabel style={{ marginTop: '0.5rem', marginBottom: '1rem',color:'whitesmoke' }} control={<CheckCircleIcon style={{ marginRight: '0.75rem',color:'whitesmoke',borderRadius:'50%',fontSize:'1.7rem' }} />} label={'1200 satisfied customers'} />
+                <FormControlLabel style={{ marginTop: '0.5rem', marginBottom: '1rem',color:'whitesmoke' }} control={<CheckCircleIcon style={{ marginRight: '0.75rem',color:'whitesmoke',borderRadius:'50%',fontSize:'1.7rem' }} />} label={'379 satisfied customers'} />
                 <FormControlLabel style={{ marginBottom: '1rem',color:'whitesmoke' }} control={<CheckCircleIcon style={{ marginRight: '0.75rem',color:'whitesmoke',borderRadius:'50%',fontSize:'1.7rem'}} />} label={'Latest technologies'} />
                 <FormControlLabel style={{color:'whitesmoke'}} control={<CheckCircleIcon style={{ marginRight: '0.75rem',color:'whitesmoke',borderRadius:'50%',fontSize:'1.7rem' }} />} label={'Free consultation'} />
             </div>

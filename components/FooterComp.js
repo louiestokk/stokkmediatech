@@ -37,15 +37,15 @@ const FooterComp = () => {
         </div>
           <div>
             <h4 style={{marginTop:'1rem'}}>Contact us</h4>
-           <a style={{color:'#ff3ff2',marginRight:'1rem',display:'flex',alignItems:'center',textDecoration:'none',marginTop:'0.5rem'}} href='/'>
+           <a style={{color:'#ff3ff2',marginRight:'1rem',display:'flex',alignItems:'center',textDecoration:'none',marginTop:'0.5rem'}} href='https://chat.whatsapp.com/EFh57YoFJbE5gTUY9B796f'>
            <WhatsAppIcon/>
            <p style={{fontSize:'0.8rem',marginLeft:'0.2rem'}}>WhatsApp</p>
            </a>
-           <a style={{color:'#ff3ff2',marginRight:'1rem',display:'flex',alignItems:'center',textDecoration:'none',marginTop:'0.5rem'}} href='/'>
+           <a style={{color:'#ff3ff2',marginRight:'1rem',display:'flex',alignItems:'center',textDecoration:'none',marginTop:'0.5rem'}} href="mailto:louiestokk@gmail.com">
            <EmailIcon/>
            <p style={{fontSize:'0.8rem',marginLeft:'0.2rem'}}>Send us Email</p>
            </a>
-           <a style={{color:'#ff3ff2',marginRight:'0.5rem',display:'flex',alignItems:'center',textDecoration:'none',marginTop:'0.5rem'}} href='/'>
+           <a style={{color:'#ff3ff2',marginRight:'0.5rem',display:'flex',alignItems:'center',textDecoration:'none',marginTop:'0.5rem'}} href="tel:+255655912498">
            <SmartphoneIcon/>
            <p style={{fontSize:'0.8rem',marginLeft:'0.2rem'}}>Call us</p>
            </a>

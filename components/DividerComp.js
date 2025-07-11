@@ -4,11 +4,11 @@ import React, { useEffect, useState } from 'react';
 import CarousalCompj from './CarousalCompj'
 import styles from '../app/page.module.css'
 const DividerComp = () => {
-      const [count, setCount] = useState(0);
+      const [count, setCount] = useState(1);
       useEffect(() => {
-    let start = 0;
-    const end = 1200;
-    const duration = 5000; // Räknar upp under 2 sekunder
+    let start = 1;
+    const end = 379;
+    const duration = 3000; // Räknar upp under 2 sekunder
     const increment = (end - start) / (duration / 50); // Ökar snabbt
 
     const timer = setInterval(() => {
