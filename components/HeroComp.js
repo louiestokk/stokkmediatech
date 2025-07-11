@@ -5,27 +5,9 @@ import styles from '../app/page.module.css'
 import { Button } from '@mui/material'
 
 const HeroComp = () => {
-  const fullText = "Your trusted web agency for tailored digital solutions. We help businesses grow online through professional web development, web design, SEO and Digital presence. We can turn your idea to a Sass Application, MobileApp our a WebApplication to manage your hotel, restaurant, real estate agency and other branches."
-  const [displayedText, setDisplayedText] = useState('')
-
-useEffect(() => {
-  let index = 0
-  const interval = setInterval(() => {
-    if (index < fullText.length) {
-      setDisplayedText(prev => prev + fullText.charAt(index)) // safer with charAt
-      index++
-    } else {
-      clearInterval(interval)
-    }
-  }, 20)
-
-  return () => clearInterval(interval)
-}, [])
-
   return (
     <div className={styles.heromother}>
       <h1 className={styles.herotitle}>Web, App, Sass & Digital Marketing</h1>
-
       <p
         className={styles.heropara}
         style={{
@@ -38,7 +20,7 @@ useEffect(() => {
           minHeight: '100px'
         }}
       >
-        {displayedText}
+      Your trusted web agency for tailored digital solutions. We help businesses grow online through professional web development, web design, SEO and Digital presence. We can turn your idea to a Sass Application, MobileApp our a WebApplication to manage your hotel, restaurant, real estate agency and other branches.
       </p>
 
       <div className={styles.iconsstackmoth}>
