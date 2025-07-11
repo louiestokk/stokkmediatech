@@ -4,9 +4,13 @@ import React from 'react'
 import { FormControlLabel,Button } from '@mui/material'
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 import styles from '../app/page.module.css'
+import LottieComp from './LottieComp';
+import developer from '../utils/animations/developer.json'
 const LastComp = () => {
   return (
-    <div id='starter'>
+    <div className={styles.james}>
+       <LottieComp lottie={developer} height={300} width={300}/>
+   <div className={styles.lisa}>
          <div style={{ width: '100%', marginTop: '0rem', padding: '3rem' }}>
             <h2 style={{ fontFamily: 'Georgia, sans-serif', fontSize: '2.4rem', lineHeight: '3rem',maxWidth:'400px',color:'whitesmoke' }}>Want to have more customers?</h2>
             <h2 style={{ fontFamily: 'Georgia, sans-serif', fontSize: '1.75rem', lineHeight: '2.5rem', maxWidth: '300px',color:'whitesmoke' }}>fast, safe and easy</h2>
@@ -21,6 +25,8 @@ const LastComp = () => {
            
         </div>
     </div>
+    </div>
+ 
   )
 }
 

@@ -7,8 +7,7 @@ import ShowCaseComp from '../components/ShowCaseComp'
 import DividerComp from '../components/DividerComp'
 import LastComp from '../components/LastComp'
 import AccordionComp from '../components/AccordionComp'
-import LottieComp from '../components/LottieComp'
-import developer from '../utils/animations/developer.json'
+
 export default function Home() {
   return (<div className={styles.mother}>
     <HeaderComp/>
@@ -18,7 +17,6 @@ export default function Home() {
    <div style={{height:'40px'}}></div>
  <ShowCaseComp/>
  <AccordionComp/>
-  <LottieComp lottie={developer} height={300} width={300}/>
  <LastComp/>
  <div style={{height:'20px'}}></div>
     </main>

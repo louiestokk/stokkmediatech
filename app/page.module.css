@@ -198,10 +198,51 @@
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     max-width: 600px;
   }
-
+.jasem{
+  color: gray;
+  font-size: 0.8rem;
+  line-height: 20px;
+  margin-bottom: 1.5rem;
+}
+.james{
+  margin-top: 1.5rem;
+}
 @media (max-width: 600px) {
  .footermoth{
   flex-direction: column;
+ }
+    }
+
+@media (min-width: 1000px) {
+ .showcasesmother{
+  text-align: center;
+ }
+ .jasem{
+  text-align: center;
+  max-width: 800px;
+  margin: 1rem auto;
+ }
+ .abbs{
+  text-align: center;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+ }
+ .james{
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+ }
+ .lisa{
+  width: 95%;
+ }
+ .heromother{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
  }
     }
 
