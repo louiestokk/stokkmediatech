@@ -207,6 +207,7 @@
 .james{
   margin-top: 1.5rem;
 }
+
 @media (max-width: 600px) {
  .footermoth{
   flex-direction: column;

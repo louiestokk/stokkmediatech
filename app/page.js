@@ -16,7 +16,9 @@ export default function Home() {
    <DividerComp/>
    <div style={{height:'40px'}}></div>
  <ShowCaseComp/>
+ <div style={{height:'20px'}}></div>
  <AccordionComp/>
+  <div style={{height:'20px'}}></div>
  <LastComp/>
  <div style={{height:'20px'}}></div>
     </main>
