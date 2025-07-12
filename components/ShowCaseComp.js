@@ -8,7 +8,7 @@ const ShowCaseComp = () => {
       <div style={{height:'30px'}}></div>
               <h2 className={styles.showTitle}>Some of our selected customer cases</h2>
         <p className={styles.jasem} >Here you can see a selection of projects we have delivered. Do you have any questions about a project or want to know how we work? Do not hesitate to contact us and we will tell you more.</p>
-        <Link className={styles.abbs} style={{fontSize:'0.8rem',color:'#ff3ff2',display:'flex',alignItems:'center',width:'100%'}} href={'/showcase/restaurants'}>See more we've done <ArrowRightAltIcon style={{marginTop:'0.2rem',marginLeft:'0.2rem'}}/></Link>
+        <Link className={styles.abbs} style={{fontSize:'0.8rem',color:'#ff3ff2',display:'flex',alignItems:'center',width:'100%'}} href={'/showcase'}>See more we've done <ArrowRightAltIcon style={{marginTop:'0.2rem',marginLeft:'0.2rem'}}/></Link>
               <div style={{height:'30px'}}></div>
       <section>
         <Link style={{textDecoration:'none'}} target='_blank' href={'https://hotmat.se/'}>
