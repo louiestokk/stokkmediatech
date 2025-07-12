@@ -41,7 +41,7 @@ const FooterComp = () => {
            <WhatsAppIcon/>
            <p style={{fontSize:'0.8rem',marginLeft:'0.2rem'}}>WhatsApp</p>
            </a>
-           <a style={{color:'#ff3ff2',marginRight:'1rem',display:'flex',alignItems:'center',textDecoration:'none',marginTop:'0.5rem'}} href="mailto:louiestokk@gmail.com">
+           <a title='louiestokk@gmail.com' style={{color:'#ff3ff2',marginRight:'1rem',display:'flex',alignItems:'center',textDecoration:'none',marginTop:'0.5rem'}} href="mailto:louiestokk@gmail.com">
            <EmailIcon/>
            <p style={{fontSize:'0.8rem',marginLeft:'0.2rem'}}>Send us Email</p>
            </a>

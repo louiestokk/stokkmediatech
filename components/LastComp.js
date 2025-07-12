@@ -9,7 +9,7 @@ import developer from '../utils/animations/developer.json'
 const LastComp = () => {
   return (
     <div className={styles.james}>
-       <LottieComp lottie={developer} height={300} width={300}/>
+       <LottieComp lottie={developer} height={340} width={300}/>
    <div className={styles.lisa}>
          <div style={{ width: '100%', marginTop: '0rem', padding: '3rem' }}>
             <h2 style={{ fontFamily: 'Georgia, sans-serif', fontSize: '2.4rem', lineHeight: '3rem',maxWidth:'400px',color:'whitesmoke' }}>Want to have more customers?</h2>
