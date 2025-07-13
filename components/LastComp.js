@@ -20,8 +20,10 @@ const LastComp = () => {
                 <FormControlLabel style={{ marginBottom: '1rem',color:'whitesmoke' }} control={<CheckCircleIcon style={{ marginRight: '0.75rem',color:'whitesmoke',borderRadius:'50%',fontSize:'1.7rem'}} />} label={'Latest technologies'} />
                 <FormControlLabel style={{color:'whitesmoke'}} control={<CheckCircleIcon style={{ marginRight: '0.75rem',color:'whitesmoke',borderRadius:'50%',fontSize:'1.7rem' }} />} label={'Free consultation'} />
             </div>
-         <div style={{height:'30px'}}></div>
-         <button style={{width:'14rem',height:'3.4rem'}} className={styles.bookBtn}>Book a consultation</button>
+         <div style={{height:'70px'}}></div>
+          <a title='louiestokk@gmail.com' style={{padding:'1rem'}} className={styles.bookBtn} href="mailto:louiestokk@gmail.com">
+          Book a consultation
+          </a>
            
         </div>
     </div>

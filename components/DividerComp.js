@@ -34,8 +34,11 @@ const DividerComp = () => {
         </p>
       </div>
         <CarousalCompj/>
-        <div style={{display:'flex',justifyContent:'center'}}>
- <button className={styles.bookBtn}>Book a consultation</button>
+        <div style={{display:'flex',justifyContent:'center',textAlign:'center'}}>
+          <a title='louiestokk@gmail.com' className={styles.bookBtn} href="mailto:louiestokk@gmail.com">
+          Book a consultation
+          </a>
+
         </div>
         
     </div>
