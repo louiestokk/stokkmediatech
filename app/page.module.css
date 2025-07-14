@@ -23,6 +23,7 @@
 }
 
 .logoiconny {
+  cursor: pointer;
  margin-right: 1.5rem;
   color: #ff3ff2;
   font-size: 2.8rem;
@@ -210,6 +211,22 @@
   margin-top: 1.5rem;
 }
 
+.navbar{
+  position: relative;
+}
+
+.navMenu{
+  position: absolute;
+  z-index: 999999999;
+  height: 100vh;
+  background: white;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  width: 100vw;
+  transition: all 0.3 linear;
+}
 @media (max-width: 600px) {
  .footermoth{
   flex-direction: column;
