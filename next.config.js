@@ -1,8 +1,20 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    serverActions: true, // säkra server-only routes
-  },
-}
-
-module.exports = nextConfig
+  reactStrictMode:false,
+    experimental: {
+      serverComponentsExternalPackages: ["mongoose"],
+      cpus:6
+    },
+    images: {
+      domains: ['lh3.googleusercontent.com','https://i.ibb.co','https://imgbb.com/','i.ibb.co','https://images.pexels.com','https://randomuser.me/','https://www.stadsmissionen.org','https://img.freepik.com','https://mnd-assets.mynewsdesk.com/','https://www.mynewsdesk.com/'],
+    },
+    webpack(config) {
+      config.experiments = {
+        ...config.experiments,
+        topLevelAwait: true,
+      }
+      return config
+    }
+  }
+  
+  module.exports = nextConfig

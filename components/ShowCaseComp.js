@@ -14,14 +14,14 @@ const ShowCaseComp = () => {
         <Link style={{textDecoration:'none'}} target='_blank' href={'https://hotmat.se/'}>
            <div style={{width:'100%',position:'relative',marginBottom:'2rem'}}>
             <h4 className={styles.showcaseitemtitle}>App</h4>
-            <img loading='lazy' style={{width:'100%',objectFit:'cover',height:'250px',boxShadow:'rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px',maxWidth:'700px'}} src={'/images/food-delivery-app.png'}/>
+            <img loading='lazy' style={{width:'100%',objectFit:'cover',height:'250px',boxShadow:'rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px',maxWidth:'700px'}} src={'https://i.ibb.co/WvK8vkkD/food-delivery-app.png'}/>
             <p style={{color:'gray',fontSize:'0.85rem',marginTop:'1.5rem'}}>Food deliver mobile and web Sass application</p>
           </div>
         </Link>
        <Link style={{textDecoration:'none'}} target='_blank' href={'https://yumyum.se/'}>
          <div style={{width:'100%',position:'relative',margin:'1rem 0'}}>
             <h4 className={styles.showcaseitemtitle}>App</h4>
-            <img loading='lazy' style={{width:'100%',objectFit:'cover',height:'250px',boxShadow:'rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px',maxWidth:'700px'}} src={'/images/restaurant-chain.png'}/>
+            <img loading='lazy' style={{width:'100%',objectFit:'cover',height:'250px',boxShadow:'rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px',maxWidth:'700px'}} src={'https://i.ibb.co/tp6Q9sbp/restaurant-chain.png'}/>
             <p style={{color:'gray',fontSize:'0.85rem',marginTop:'1.5rem'}}>Order/Crm system, food ordering and delivering app</p>
           </div>
        </Link>
