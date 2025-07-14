@@ -13,13 +13,13 @@ export const metadata = {
   },
    openGraph: {
     title: 'Stokk Tech Web Agency in Zanzibar for Digital Solutions',
-    images: '/images/hero-banner.avif',
+    images: 'https://i.ibb.co/LhpG7vrk/stokk-mediatech-zanizbar.png',
     description:'We help businesses grow online through professional web development, web design, SEO and Digital presence.',
     url: 'https://www.stokktech.netlify.app/',
     site_name: 'Stokk MediaTech',
     images: [
       {
-        url: '/images/hero-banner.avif',
+        url: 'https://i.ibb.co/LhpG7vrk/stokk-mediatech-zanizbar.png',
         width: 1260,
         height: 750,
         alt: 'Stokk Tech Web Agency in Zanzibar',
