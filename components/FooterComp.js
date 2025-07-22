@@ -11,17 +11,26 @@ const FooterComp = () => {
           <div>
             <img style={{width:'125px',height:'125px'}} alt='stokk tech mediatech ' src='/images/logo-stokk.png'/> 
             <h4 style={{color:'whitesmoke',marginBottom:'0.3rem'}}>Stokk MediaTech</h4>
-            <p style={{fontSize:'0.7rem',width:'150px',lineHeight:'18px',color:'gray'}}>Media and Web Agency in Zanzibar with its origin from Sweden.</p>
+            <p style={{fontSize:'0.7rem',width:'150px',lineHeight:'18px',color:'gray'}}> Tech, Media and Web Agency in Zanzibar with its origin from Sweden.</p>
         </div>
           <div>
             <h4 style={{marginTop:'1rem'}}>Services</h4>
             <p style={{color:'gray',fontSize:'0.8rem',margin:'0.3rem 0'}}>Website</p>
-             <p style={{color:'gray',fontSize:'0.8rem',margin:'0.3rem 0'}}>Webdesign</p>
-              <p style={{color:'gray',fontSize:'0.8rem',margin:'0.3rem 0'}}>Webapp</p>
-               <p style={{color:'gray',fontSize:'0.8rem',margin:'0.3rem 0'}}>Mobileapp</p>
+             <p style={{color:'gray',fontSize:'0.8rem',margin:'0.3rem 0'}}>Web Design</p>
+              <p style={{color:'gray',fontSize:'0.8rem',margin:'0.3rem 0'}}>Web App</p>
+              <p style={{color:'gray',fontSize:'0.8rem',margin:'0.3rem 0'}}>Sass App</p>
+              <p style={{color:'gray',fontSize:'0.8rem',margin:'0.3rem 0'}}>Web3</p>
+               <p style={{color:'gray',fontSize:'0.8rem',margin:'0.3rem 0'}}>Mobile App</p>
+                <p style={{color:'gray',fontSize:'0.8rem',margin:'0.3rem 0'}}>Hosting & Domains</p>
               <p style={{color:'gray',fontSize:'0.8rem',margin:'0.3rem 0'}}>CRM System</p>
                <p style={{color:'gray',fontSize:'0.8rem',margin:'0.3rem 0'}}>Digital marketing</p>
+                <p style={{color:'gray',fontSize:'0.8rem',margin:'0.3rem 0'}}>Scraping data</p>
                   <p style={{color:'gray',fontSize:'0.8rem',margin:'0.3rem 0'}}>Search engine optimization</p>
+                    <p style={{color:'gray',fontSize:'0.8rem',margin:'0.3rem 0'}}>Socials Automation</p>
+                      <p style={{color:'gray',fontSize:'0.8rem',margin:'0.3rem 0'}}>Social Media Management</p>
+                      <p style={{color:'gray',fontSize:'0.8rem',margin:'0.3rem 0'}}>AI Development</p>
+                       <p style={{color:'gray',fontSize:'0.8rem',margin:'0.3rem 0'}}>Foto/Video Creation & Editing</p>
+                        <p style={{color:'gray',fontSize:'0.8rem',margin:'0.3rem 0'}}>Logo & Branding</p>
               
         </div>
          <div>
