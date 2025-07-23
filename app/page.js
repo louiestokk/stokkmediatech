@@ -7,7 +7,7 @@ import ShowCaseComp from '../components/ShowCaseComp'
 import DividerComp from '../components/DividerComp'
 import LastComp from '../components/LastComp'
 import AccordionComp from '../components/AccordionComp'
-import PopularaButtons from '../components/PopularaButtons'
+import LazyPopBtns from '../components/LazyPopBtns'
 
 export default function Home() {
   return (<div className={styles.mother}>
@@ -20,7 +20,7 @@ export default function Home() {
  <div style={{height:'40px'}}></div>
  <AccordionComp/>
   <div style={{height:'100px'}}></div>
-  <PopularaButtons/>
+  <LazyPopBtns/>
    <div style={{height:'100px'}}></div>
  <LastComp/>
  <div style={{height:'20px'}}></div>
