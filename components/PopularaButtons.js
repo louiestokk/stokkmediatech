@@ -3,7 +3,7 @@
 import React from 'react'
 import WhatshotIcon from '@mui/icons-material/Whatshot';
 import Link from 'next/link'
-
+import styles from '../app/page.module.css'
 const servicesArrayPop = [
     { title: "Web Design" },
     { title: "App development" },
@@ -27,7 +27,7 @@ const PopularaButtons = () => {
         <h2 style={{ fontFamily: 'Georgia,sans-serif', maxWidth: '80%', marginBottom: '2rem', background: '#a100ff', color: 'whitesmoke',fontSize:'1.8rem' }}>Popular services</h2>
         <div style={{ width: '100%', display: 'flex', flexDirection: 'row', justifyContent: 'center', alignItems: 'center', flexWrap: 'wrap', background: '#a100ff' }}>
           {servicesArrayPop.map((el, i) => (
-            <Link href="/" key={i} style={{ borderRadius: '10rem', background: '#ff8be8', color: '#31024bff', margin: '0.5rem 0.5rem', display: 'flex', alignItems: 'center', padding: '0.75rem', textDecoration: 'none' }}>
+            <Link className={styles.popbtnslink} href="/" key={i}>
               <WhatshotIcon style={{ fontSize: '1.2rem', marginRight: '0.35rem', background: 'transparent', color: 'red' }} />
               {el.title}
             </Link>

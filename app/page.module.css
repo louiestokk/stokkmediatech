@@ -82,6 +82,28 @@
   padding: 1rem;
 }
 
+.popbtnslink{
+border-radius: 10rem;
+  background: linear-gradient(
+    135deg,
+    #a100ff,
+    #c700ff,
+    #ff3ff2,
+    #ff70d1,
+    #ff8be8
+  );
+color: #31024bff;
+margin: 0.5rem 0.5rem;
+display: flex;
+align-items: center;
+padding: 0.75rem;
+text-decoration: none;
+ box-shadow:
+    0 0 15px rgba(255, 63, 242, 0.6),
+    0 0 35px rgba(199, 0, 255, 0.5),
+    0 0 65px rgba(255, 112, 209, 0.4);
+}
+
 .bookBtn {
   background: linear-gradient(
     135deg,
