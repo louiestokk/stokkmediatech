@@ -7,7 +7,7 @@ const DividerComp = () => {
       const [count, setCount] = useState(1);
       useEffect(() => {
     let start = 1;
-    const end = 379;
+    const end = 382;
     const duration = 3000; // Räknar upp under 2 sekunder
     const increment = (end - start) / (duration / 50); // Ökar snabbt
 
